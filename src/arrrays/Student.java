@@ -11,6 +11,15 @@ package arrrays;
 public class Student {
     private String sId;
     private String sNAme;
+    private String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
     public Student(String sId, String sNAme) {
         this.sId = sId;
