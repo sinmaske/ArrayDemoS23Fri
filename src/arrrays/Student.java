@@ -12,7 +12,8 @@ public class Student {
     private String sId;
     private String sNAme;
     private String address;
-// comment added at 12:32pm
+    // comment added at 12:32pm
+    // comment added for fetch and merge
     public String getAddress() {
         return address;
     }
